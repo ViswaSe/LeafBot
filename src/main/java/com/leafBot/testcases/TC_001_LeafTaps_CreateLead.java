@@ -27,6 +27,7 @@ public class TC_001_LeafTaps_CreateLead extends ProjectSpecificMethods{
 	public void leafTapsCreateLead(String username,String password,
 			String cname,String fname,String lname)
 	{
+		System.out.println("Create Lead case");
 		new LoginPage()
 		.enterUserName(username)
 		.enterPassword(password)
